@@ -25,7 +25,7 @@ const char* password = "25102009";
 
 
 ESP8266WebServer server(80);
-FastBot bot("6014815330:AAFla1qhdPpp87zKIKyhx-KUxLpqHbaQp6E");
+FastBot bot("ТОКЕН БОТА");
 
 
 void setup() {
