@@ -60,7 +60,11 @@ String SendHTML(float temperature, float humidity) {
   ptr += "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
   ptr += "<title>Weather Station</title>\n";
   ptr += "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\" integrity=\"sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e\" crossorigin=\"anonymous\">\n";
-  
+  ptr += "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://raw.githubusercontent.com/Mikazil/SmartThermostat/main/apple-touch-icon.png\">\n";
+  ptr += "<meta name=\"apple-mobile-web-app-title\" content=\"Smart Temp\">\n";
+  ptr += "<meta name=\"application-name\" content=\"Smart Temp\">\n";  
+  ptr += "<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://github.com/Mikazil/SmartThermostat/blob/main/favicon-32x32.png?raw=true\">\n";
+  ptr += "<link rel=\icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://github.com/Mikazil/SmartThermostat/blob/main/favicon-16x16.png?raw=true\">\n";
   //CSS STYLE
   ptr += "<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');\n";
   ptr += "html { font-family: 'Roboto', sans-serif; display: inline-block; margin: 0px auto;}\n";
